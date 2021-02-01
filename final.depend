@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1612105822 source:d:\projects\c++\final\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+	<ctype.h>
+	<windows.h>
+	<limits.h>
+	<stdio.h>
+
+1612105822 source:d:\projects\c++\file-locker\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+	<ctype.h>
+	<windows.h>
+	<limits.h>
+	<stdio.h>
+

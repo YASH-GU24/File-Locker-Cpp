@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: main - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Lenovo\AppData\Local\Temp\RSPA35E.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/main.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\projects\C++\File-Locker\main.cpp"
+]
+Creating command line "cl.exe @C:\Users\Lenovo\AppData\Local\Temp\RSPA35E.tmp" 
+Creating temporary file "C:\Users\Lenovo\AppData\Local\Temp\RSPA35F.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/main.pdb" /debug /machine:I386 /out:"Debug/main.exe" /pdbtype:sept 
+".\Debug\main.obj"
+]
+Creating command line "link.exe @C:\Users\Lenovo\AppData\Local\Temp\RSPA35F.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+d:\projects\c++\file-locker\main.cpp(40) : error C2065: 'time' : undeclared identifier
+d:\projects\c++\file-locker\main.cpp(41) : error C2601: 'temp' : local function definitions are illegal
+d:\projects\c++\file-locker\main.cpp(41) : error C2063: 'temp' : not a function
+d:\projects\c++\file-locker\main.cpp(66) : error C2601: 'temp' : local function definitions are illegal
+d:\projects\c++\file-locker\main.cpp(66) : error C2063: 'temp' : not a function
+d:\projects\c++\file-locker\main.cpp(86) : error C2601: 'temp' : local function definitions are illegal
+d:\projects\c++\file-locker\main.cpp(86) : error C2063: 'temp' : not a function
+d:\projects\c++\file-locker\main.cpp(209) : error C2374: 'i' : redefinition; multiple initialization
+        d:\projects\c++\file-locker\main.cpp(204) : see declaration of 'i'
+d:\projects\c++\file-locker\main.cpp(215) : error C2039: 'push_back' : is not a member of 'basic_string<char,struct std::char_traits<char>,class std::allocator<char> >'
+d:\projects\c++\file-locker\main.cpp(218) : error C2039: 'push_back' : is not a member of 'basic_string<char,struct std::char_traits<char>,class std::allocator<char> >'
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+main.exe - 10 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
